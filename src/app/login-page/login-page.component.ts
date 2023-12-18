@@ -52,4 +52,8 @@ export class LoginPageComponent {
       }
     );
   }
+
+  onSubmit(): void{
+    this.router.navigate(["sign-up"])
+  }
 }
